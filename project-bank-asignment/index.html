@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project of Bank Webdesign</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Add Logo on Titlebar -->
+    <link rel="icon" href="image/bank-logo.png" type="image/x-icon">
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+<!-- Font: Poppins -->
+<style>
+    *{
+        font-family: 'Poppins', sans-serif;
+    }
+</style>
+</head>
+<body>
+    <!-- Header-Section -->
+    <header>
+        <h1 class="text-5xl text-center mt-6 font-bold">Welcome To <span class="text-indigo-500">My Bank</span>..</h1>
+    </header>
+    <!-- Form-Section -->
+    <main>
+        <section class="mt-12">
+            <div class="bg-rose-500 w-9/12 mx-auto p-8 text-center drop-shadow-lg rounded-xl">
+                <h1 class="text-3xl font-semibold text-yellow-300">Please Login</h1>
+                <div>
+                    <input type="number" class="block w-2/3 mt-6 mx-auto px-2 rounded-sm h-8 focus:outline-none" id="accountno" placeholder="Enter Account Number" required>
+                    <input type="password" class="block w-2/3 mt-6 mx-auto px-2 rounded-sm h-8 focus:outline-none" id="password" placeholder="Enter Password" minlength="8" required>
+                    <button class="bg-indigo-500 px-8 py-2 rounded-lg mt-8 hover:bg-indigo-200 hover:text-black font-semibold drop-shadow-lg text-white" id="login-btn">Login</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="js/index.js"></script>
+</body>
+</html>
